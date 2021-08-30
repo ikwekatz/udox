@@ -6,13 +6,14 @@
 <meta http-equiv="cache-control" content="max-age=604800" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Website title - bootstrap html template</title>
+<title>UDOX || WEBSITE</title>
 <?php
 define("BASE_URL", "/udox/dcommerce/asset");
 define("INDEX" ,'/udox/dcommerce');
 define('PAGES','/udox/dcommerce/pages');
 define('login','/udox/dcommerce/pages/login.php');
 define('register','/udox/dcommerce/pages/register.php');
+define('myaccount', '/udox/dcommerce/pages/myaccount.php')
 ?>
 <link href="<?php echo BASE_URL.'/images/favicon.ico';?>" rel="shortcut icon" type="image/x-icon">
 <link rel="stylesheet" href="<?php echo BASE_URL.'/css/main.css';?>">
