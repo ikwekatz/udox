@@ -13,7 +13,8 @@ define("INDEX" ,'/udox/dcommerce');
 define('PAGES','/udox/dcommerce/pages');
 define('login','/udox/dcommerce/pages/login.php');
 define('register','/udox/dcommerce/pages/register.php');
-define('myaccount', '/udox/dcommerce/pages/myaccount.php')
+define('myaccount', '/udox/dcommerce/pages/myaccount.php');
+define('image','/udox/dcommerce/asset/images/posts');
 ?>
 <link href="<?php echo BASE_URL.'/images/favicon.ico';?>" rel="shortcut icon" type="image/x-icon">
 <link rel="stylesheet" href="<?php echo BASE_URL.'/css/main.css';?>">
