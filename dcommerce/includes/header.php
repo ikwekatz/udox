@@ -11,6 +11,8 @@
 define("BASE_URL", "/udox/dcommerce/asset");
 define("INDEX" ,'/udox/dcommerce');
 define('PAGES','/udox/dcommerce/pages');
+define('login','/udox/dcommerce/pages/login.php');
+define('register','/udox/dcommerce/pages/register.php');
 ?>
 <link href="<?php echo BASE_URL.'/images/favicon.ico';?>" rel="shortcut icon" type="image/x-icon">
 <link rel="stylesheet" href="<?php echo BASE_URL.'/css/main.css';?>">
@@ -142,8 +144,8 @@ if(isset($_POST["MBWEHE"])){
 				<div class="text">
 					<span class="text-muted">Welcome!</span>
 					<div> 
-						<a href="#">Sign in</a> |  
-						<a href="#"> Register</a>
+						<a href="<?php echo login ?>">Sign in</a> |  
+						<a href="<?php echo register ?>"> Register</a>
 					</div>
 				</div>
 			</div>
