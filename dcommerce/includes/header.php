@@ -15,6 +15,15 @@ define('login','/udox/dcommerce/pages/login.php');
 define('register','/udox/dcommerce/pages/register.php');
 define('myaccount', '/udox/dcommerce/pages/myaccount.php');
 define('image','/udox/dcommerce/asset/images/posts');
+define('bill','/udox/dcommerce/pages/paddress.php');
+define('Account', '/udox/dcommerce/pages/myaccount.php');
+define('Payment', '/udox/dcommerce/pages/payment.php');
+define('Order', '/udox/dcommerce/pages/prorde.php');
+define('Selling', '/udox/dcommerce/pages/selleritems.php');
+define('Wishlist', '/udox/dcommerce/pages/swishlist.php');
+define('Cart', '/udox/dcommerce/pages/shoppingcart.php');
+define('Profile', '/udox/dcommerce/pages/cprofile.php');
+
 ?>
 <link href="<?php echo BASE_URL.'/images/favicon.ico';?>" rel="shortcut icon" type="image/x-icon">
 <link rel="stylesheet" href="<?php echo BASE_URL.'/css/main.css';?>">

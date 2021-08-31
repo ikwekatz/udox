@@ -18,13 +18,13 @@ include('../includes/header.php');
 	<div class="row">
 		<aside class="col-md-3">
 			<nav class="list-group">
-				<a class="list-group-item" href="page-profile-main.html"> Account overview  </a>
-				<a class="list-group-item active" href="page-profile-address.html"> My Address </a>
-				<a class="list-group-item" href="page-profile-orders.html"> My Orders </a>
-				<a class="list-group-item" href="page-profile-wishlist.html"> My wishlist </a>
-				<a class="list-group-item" href="page-profile-seller.html"> My Selling Items </a>
-				<a class="list-group-item" href="page-profile-setting.html"> Settings </a>
-				<a class="list-group-item" href="page-index-1.html"> Log out </a>
+				<a class="list-group-item" href="<?php echo Profile ?>"> Account overview  </a>
+				<a class="list-group-item active" href="<?php echo bill ?>"> My Address </a>
+				<a class="list-group-item" href="<?php echo Order ?>"> My Orders </a>
+				<a class="list-group-item" href="<?php echo Wishlist ?>"> My Wishlist </a>
+				<a class="list-group-item" href="<?php echo Selling ?>"> My Selling Items </a>
+				<a class="list-group-item" href="<?php echo Account ?>"> Settings </a>
+				<a class="list-group-item" href=""> Log out </a>
 			</nav>
 		</aside> <!-- col.// -->
 		<main class="col-md-9">
