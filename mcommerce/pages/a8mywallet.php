@@ -65,12 +65,12 @@ $(document).ready(function() {
 		<h6 class="text-white mt-3 mb-0">Welcome To UDOX Mall!</h6>
 	</div>
 	<nav class="nav-sidebar">
-		<a href="index.html"> <i class="fa fa-home"></i> Home</a>
-		<a href="index.html"> <i class="fa fa-th"></i>About us</a>
-		<a href="index.html">  <i class="fa fa-info-circle"></i>Our services</a>
-		<a href="index.html">  <i class="fa fa-building"></i>Team portifolio</a>
-		<a href="index.html">  <i class="fa fa-cog"></i>Terms and Condition</a>
-		<a href="index.html"> <i class="fa fa-home"></i>Refund policy</a>
+		<a href="<?php echo Home?>"> <i class="fa fa-home"></i> Home</a>
+		<a href="#"> <i class="fa fa-th"></i>About us</a>
+		<a href="#">  <i class="fa fa-info-circle"></i>Our services</a>
+		<a href="#">  <i class="fa fa-building"></i>Team portifolio</a>
+		<a href="#">  <i class="fa fa-cog"></i>Terms and Condition</a>
+		<a href="#"> <i class="fa fa-home"></i>Refund policy</a>
 	</nav>
 	<hr>
 	<nav class="nav-sidebar">

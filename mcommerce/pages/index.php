@@ -13,10 +13,10 @@
 	<nav class="nav-sidebar">
 		<a href="<?php echo Home?>"> <i class="fa fa-home"></i> Home</a>
 		<a href="<?php echo Category?>"> <i class="fa fa-th"></i>	Categories</a>
-		<a href="index.html">  <i class="fa fa-info-circle"></i> About us</a>
-		<a href="index.html">  <i class="fa fa-building"></i> Company</a>
+		<a href="#">  <i class="fa fa-info-circle"></i> About us</a>
+		<a href="#">  <i class="fa fa-building"></i> Company</a>
 		<a href="<?php echo Setting?>">  <i class="fa fa-cog"></i> Settings</a>
-		<a href="index.html"> <i class="fa fa-home"></i> All screens</a>
+		<a href="#"> <i class="fa fa-home"></i> All screens</a>
 	</nav>
 	<hr>
 	<nav class="nav-sidebar">
@@ -264,7 +264,7 @@
 </section>
 
 
-<p class="text-center my-4"><a href="index.html" class="btn btn-light"> <i class="fa fa-arrow-left"></i> <span class="text">More pages</span></a></p>
+<p class="text-center my-4"><a href="<?php echo Home ?>" class="btn btn-light"> <i class="fa fa-arrow-left"></i> <span class="text">More pages</span></a></p>
 
 
 </main>

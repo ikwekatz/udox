@@ -126,7 +126,7 @@
 
 	<a href="page-order-step1.html" class="btn btn-primary btn-block mt-3"> <span class="text"> Continue </span> <i class="fa fa-chevron-right"></i></a>
 
-	<a href="index.html" class="btn btn-light btn-block"> <i class="fa fa-arrow-left"></i> <span class="text">More pages</span></a>
+	<a href="<?php echo Home ?>" class="btn btn-light btn-block"> <i class="fa fa-arrow-left"></i> <span class="text">More pages</span></a>
 
 
 </section>
