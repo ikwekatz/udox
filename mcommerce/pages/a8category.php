@@ -1,212 +1,76 @@
-<?php include('../includes/header.php');?>
+<?php include('../includes/header.php') ?>
 <body>
 
 
 <!-- =============== screen-wrap =============== -->
 <div class="screen-wrap">
 
-<!-- header section start--->
 <header class="app-header bg-primary">
-	
-<button class="btn-header" type="button" data-trigger="#sidebar_left"><i class="fa fa-bars"></i></button>
-    
-
-	<i class="screen-overlay"></i>
-
-<aside class="offcanvas" id="sidebar_left">
-	<div class="card-body bg-primary">
-		<button class="btn-close close text-white">&times;</button>
-		<img src="../asset/images/avatars/1.jpg" class="img-sm rounded-circle" alt="">
-		<h6 class="text-white mt-3 mb-0">Welcome To UDOX Mall!</h6>
-	</div>
-	<nav class="nav-sidebar">
-		<a href="<?php echo Home?>"> <i class="fa fa-home"></i> Home</a>
-		<a href="#"> <i class="fa fa-th"></i>About us</a>
-		<a href="#">  <i class="fa fa-info-circle"></i>Our services</a>
-		<a href="#">  <i class="fa fa-building"></i>Team portifolio</a>
-		<a href="#">  <i class="fa fa-cog"></i>Terms and Condition</a>
-		<a href="#"> <i class="fa fa-home"></i>Refund policy</a>
-	</nav>
-	<hr>
-	<nav class="nav-sidebar">
-		<a href="#"> <i class="fa fa-phone"></i> +255754576387</a>
-		<a href="#"> <i class="fa fa-envelope"></i> udoxdodoma@gmail.com</a>
-		<a href="#"> <i class="fa fa-map-marker"></i>Dodoma city centre Tanzania</a>
-	</nav>
-	<hr class="divider">
-	<nav class="nav-sidebar">
-	<a href="#" class="border text-center bg-primary mx-5 mr-0  text text-white"> LOGOUT</a>
-</nav>
-</aside>
-
-
-
-   <h5 class="title-header">UDOX SHOPPING MALL </h5>
-    
-
-
-	
-	<div class="header-right"> 
-	<a href="#" class="btn-header"> <i class="fa fa-bell"></i></a> 
-
-                 </div>
-</header>
- <!-- header section end.// -->
+	<a href="javascript:history.go(-1)" class="btn-header"><i class="fa fa-arrow-left"></i></a>
+    <div class="header-right">  </div>
+</header> <!-- section-header.// -->
 <main class="app-content">
 
-<div class="bg-primary padding-x padding-bottom">
-    <h6 class="title-page text-white">All Category</h6>
+<div class="bg-primary  text-center padding-x padding-bottom">
+    <h3 class="title-page text-white">All Category</h3>
+    <p class="text-white-50">321 products</p>
 </div>
 
-<section class="scroll-horizontal padding-around">
-        <div class="item-sm">
-            <a href="#">
-                <div class="img-wrap">
-                    <img class="rounded-circle img-sm" src="../asset/images/avatars/1.jpg" alt="">
-                </div>
-                <div class="text-wrap pt-2 text-center">
-                    <p class="text-truncate">Men</p>
-                </div>
-            </a>
-        </div>
-        <div class="item-sm">
-            <a href="#">
-                <div class="img-wrap">
-                    <img class="rounded-circle img-sm" src="../asset/images/avatars/2.jpg" alt="">
-                </div>
-                <div class="text-wrap pt-2 text-center">
-                    <p class="text-truncate">Woman</p>
-                </div>
-            </a>
-        </div>
-        <div class="item-sm">
-            <a href="#">
-                <div class="img-wrap">
-                    <img class="rounded-circle img-sm" src="../asset/images/avatars/3.jpg" alt="">
-                </div>
-                <div class="text-wrap pt-2 text-center">
-                    <p class="text-truncate">Ladies</p>
-                </div>
-            </a>
-        </div>
-        <div class="item-sm">
-            <a href="#">
-                <div class="img-wrap">
-                    <img class="rounded-circle img-sm" src="../asset/images/avatars/4.jpg" alt="">
-                </div>
-                <div class="text-wrap pt-2 text-center">
-                    <p class="text-truncate">Baby</p>
-                </div>
-            </a>
-        </div>
+<section class="padding-around">
 
-</section> 
-
-
-<hr class="divider mb-3">
-
-
-<ul class="nav-menu">
-	<li class="nav-item">
-		<a href="" class="icontext">
-			<span class="icon icon-sm bg-primary rounded"> <img src="../asset/images/icons/category-white/cpu.svg" alt=""> </span>
-			<div class="text"> <h6 class="title">Devices</h6> <span class="text-muted">234 items</span></div>
-		</a>
-	</li>
-	<li class="nav-item">
-		<a href="" class="icontext">
-			<span class="icon icon-sm bg-primary rounded"> <img src="../asset/images/icons/category-white/homeitem.svg" alt="">  </span>
-			<div class="text"> <h6 class="title">Equipments</h6> <span class="text-muted">354 items</span></div>
-		</a>
-	</li>
-	<li class="nav-item">
-		<a href="" class="icontext">
-			<span class="icon icon-sm bg-primary rounded"> <img src="../asset/images/icons/category-white/book.svg" alt="">  </span>
-			<div class="text"> <h6 class="title">Books</h6> <span class="text-muted">48 items</span></div>
-		</a>
-	</li>
-	<li class="nav-item">
-		<a href="" class="icontext">
-			<span class="icon icon-sm bg-primary rounded"> <img src="../asset/images/icons/category-white/ball.svg" alt="">  </span>
-			<div class="text"> <h6 class="title">Sports</h6> <span class="text-muted">97 items</span></div>
-		</a>
-	</li>
-	<li class="nav-item">
-		<a href="" class="icontext">
-			<span class="icon icon-sm bg-primary rounded"> <img src="../asset/images/icons/category-white/cpu.svg" alt=""> </span>
-			<div class="text"> <h6 class="title">Electronics</h6> <span class="text-muted">234 items</span></div>
-		</a>
-	</li>
-	<li class="nav-item">
-		<a href="" class="icontext">
-			<span class="icon icon-sm bg-primary rounded"> <img src="../asset/images/icons/category-white/homeitem.svg" alt="">  </span>
-			<div class="text"> <h6 class="title">Home items</h6> <span class="text-muted">354 items</span></div>
-		</a>
-	</li>
-	<li class="nav-item">
-		<a href="" class="icontext">
-			<span class="icon icon-sm bg-primary rounded"> <img src="../asset/images/icons/category-white/book.svg" alt="">  </span>
-			<div class="text"> <h6 class="title">Books and magazines</h6> <span class="text-muted">48 items</span></div>
-		</a>
-	</li>
-	<li class="nav-item">
-		<a href="" class="icontext">
-			<span class="icon icon-sm bg-primary rounded"> <img src="../asset/images/icons/category-white/ball.svg" alt="">  </span>
-			<div class="text"> <h6 class="title">Sport and outdoor</h6> <span class="text-muted">97 items</span></div>
-		</a>
-	</li>
+<ul class="row">
+    <li class="col-6">
+        <a href="#" class="btn-icontop-lg">
+            <span class="icon"> <img src="images/icons/category-blue/cpu.svg" alt=""> </span>
+            <span class="text text-truncate"> Electronics </span>
+        </a>
+    </li>
+    <li class="col-6">
+        <a href="#" class="btn-icontop-lg">
+            <span class="icon"> <img src="images/icons/category-blue/homeitem.svg" alt=""> </span>
+            <span class="text text-truncate"> Home items </span>
+        </a>
+    </li>
+    <li class="col-6">
+        <a href="#" class="btn-icontop-lg">
+            <span class="icon"> <img src="images/icons/category-blue/book.svg" alt=""> </span>
+            <span class="text text-truncate"> Books </span>
+        </a>
+    </li>
+    <li class="col-6">
+        <a href="#" class="btn-icontop-lg">
+            <span class="icon"> <img src="images/icons/category-blue/ball.svg" alt=""> </span>
+            <span class="text text-truncate"> Sports </span>
+        </a>
+    </li>
+    <li class="col-6">
+        <a href="#" class="btn-icontop-lg">
+            <span class="icon"> <img src="images/icons/category-blue/car.svg" alt=""> </span>
+            <span class="text text-truncate"> Auto parts </span>
+        </a>
+    </li>
+    <li class="col-6">
+        <a href="#" class="btn-icontop-lg">
+            <span class="icon"> <img src="images/icons/category-blue/shoe-lady.svg" alt=""> </span>
+            <span class="text text-truncate"> Shoes </span>
+        </a>
+    </li>
+    <li class="col-6">
+        <a href="#" class="btn-icontop-lg">
+            <span class="icon"> <img src="images/icons/category-blue/shirt.svg" alt=""> </span>
+            <span class="text text-truncate"> Clothes</span>
+        </a>
+    </li>
+    <li class="col-6">
+        <a href="#" class="btn-icontop-lg">
+            <span class="icon"> <i class="fa  fa-ellipsis-h"></i> </span>
+            <span class="text text-truncate"> More </span>
+        </a>
+    </li>
 </ul>
 
-<hr class="divider">
 
-<section class="padding-around">
-<nav class="row">
-	<div class="col-6 col-sm-4">
-		<a href="#" class="btn-img overlay-gradient" style="background-image: url(../images/posts/1.jpg);">
-			<span  class="text">Fruits</span>
-		</a>
-	</div>
-	<div class="col-6 col-sm-4">
-		<a href="#" class="btn-img overlay-gradient" style="background-image: url(../images/posts/2.jpg);">
-			<span class="text">Foods</span>
-		</a>
-	</div>
-	<div class="col-6 col-sm-4">
-		<a href="#" class="btn-img overlay-gradient" style="background-image: url(../images/posts/3.jpg);">
-			<span class="text">Home shopping</span>
-		</a>
-	</div>
-	<div class="col-6 col-sm-4">
-		<a href="#" class="btn-img overlay-gradient" style="background-image: url(../images/posts/4.jpg);">
-			<span class="text">Animals</span>
-		</a>
-	</div>
-</nav>
-</section> 
 
-<hr class="divider">
-<section class="padding-around">
-	<ul class="row">
-        <li class="col-6 col-md-2">
-            <a href="#" class="btn btn-light btn-block"> Adidas  </a>
-        </li>
-        <li class="col-6 col-md-2">
-            <a href="#" class="btn btn-light btn-block"> Puma </a>
-        </li>
-        <li class="col-6 col-md-2">
-            <a href="#" class="btn btn-light btn-block"> SamSung </a>
-        </li>
-        <li class="col-6 col-md-2">
-            <a href="#" class="btn btn-light btn-block"> TECNO  </a>
-        </li>
-        <li class="col-6 col-md-2">
-            <a href="#" class="btn btn-light btn-block"> Apple  </a>
-        </li>
-        <li class="col-6 col-md-2">
-            <a href="#" class="btn btn-light btn-block"> More </a>
-        </li>
-    </ul>
-</section> <!-- section body .// -->
 <p class="text-center my-4"><a hre="<?php echo Home?>" class="btn btn-light"> <i class="fa fa-arrow-left"></i> <span class="text">Back</span></a></p>
 
 
@@ -218,7 +82,7 @@
 		<i class="icon fa fa-home"></i><span class="text">Home</span>
 	</a>
 
-	<a href="page-search.html" class="nav-link">
+	<a href="<?php echo Search ?>" class="nav-link">
 		<i class="icon fa fa-search"></i><span class="text">Search</span>
 	</a>
 

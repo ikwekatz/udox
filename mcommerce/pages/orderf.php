@@ -1,45 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="pragma" content="no-cache" />
-<meta http-equiv="cache-control" content="max-age=604800" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-
-<title>Website title - bootstrap html template</title>
-
-<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-<!-- jQuery -->
-<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
-
-<!-- Bootstrap4 files-->
-<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-
-
-<!-- Font awesome 5 -->
-<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
-
-<!-- custom style -->
-<link href="css/mobile.css" rel="stylesheet" type="text/css"/>
-
-
-<!-- custom javascript -->
-<script src="js/script.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-/// some script
-
-// jquery ready start
-$(document).ready(function() {
-	// jQuery code
-
-}); 
-// jquery end
-</script>
-
-</head>
+<?php include('../includes/header.php') ?>
 <body>
 
 <!-- =============== screen-wrap =============== -->
@@ -77,19 +36,19 @@ $(document).ready(function() {
 
 	<table class="table table-bordered text-left">
 		<tr>
-			<td width="100"><img src="images/items/item.jpg" class="img-md"></td> <td> <p>Great product name is here</p> 2x = $34.00 </td> 
+			<td width="100"><img src="<?php  echo items.'item.jpg'?>" class="img-md"></td> <td> <p>Great product name is here</p> 2x = $34.00 </td> 
 		</tr>
 		<tr>
-			<td width="100"><img src="images/items/item.jpg" class="img-md"></td> <td> <p>Another name of item</p> 1x = $4.00 </td> 
+			<td width="100"><img src="<?php  echo items.'item.jpg'?>" class="img-md"></td> <td> <p>Another name of item</p> 1x = $4.00 </td> 
 		</tr>
 		<tr>
-			<td width="100"><img src="images/items/item.jpg" class="img-md"></td> <td> <p>Smartphone white 64GB sumer amoled</p> 4x = $29.50 </td> 
+			<td width="100"><img src="<?php  echo items.'item.jpg'?>" class="img-md"></td> <td> <p>Smartphone white 64GB sumer amoled</p> 4x = $29.50 </td> 
 		</tr>
 	</table>
 
 	<p class="text-center d-flex">
-		<a href="index.html" class="btn btn-primary w-100 mx-1"> <i class="fa fa-arrow-left icon"></i> <span class="text">Main</span></a>
-		<a href="" class="btn btn-primary w-100 mx-1"> <span class="text">Profile</span> <i class="fa fa-arrow-right icon"></i> </a>
+		<a href="<?php echo Home ?>" class="btn btn-primary w-100 mx-1"> <i class="fa fa-arrow-left icon"></i> <span class="text">Main</span></a>
+		<a href="<?php echo Profile ?>" class="btn btn-primary w-100 mx-1"> <span class="text">Profile</span> <i class="fa fa-arrow-right icon"></i> </a>
 	</p>
 
 

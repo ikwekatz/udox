@@ -69,7 +69,7 @@
 <section class="padding-around">
 	<ul class="row">
 		<li class="col-4">
-			<a href="a7mywishlist.php" class="btn-card-icontop btn">
+			<a href="<?php echo Wishlist ?>" class="btn-card-icontop btn">
 				<span class="icon"> <i class="fa fa-heart"></i> </span>
 				<small class="text text-center"> Wishlist </small>
 			</a>
@@ -82,7 +82,7 @@
 			</a>
 		</li>
 		<li class="col-4">
-			<a href="a8mywallet.php" class="btn-card-icontop btn">
+			<a href="<?php echo Mywalet ?>" class="btn-card-icontop btn">
 				<span class="icon"> <i class="fa fa-wallet"></i> </span>
 				<small class="text text-center"> Wallet</small>
 			</a>
@@ -164,7 +164,7 @@
 		<i class="icon fa fa-home"></i><span class="text">Home</span>
 	</a>
 
-	<a href="page-search.html" class="nav-link">
+	<a href="<?php echo Search ?>" class="nav-link">
 		<i class="icon fa fa-search"></i><span class="text">Search</span>
 	</a>
 

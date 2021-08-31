@@ -117,7 +117,7 @@
 		<i class="icon fa fa-home"></i><span class="text">Home</span>
 	</a>
 
-	<a href="page-search.html" class="nav-link">
+	<a href="<?php echo Search ?>" class="nav-link">
 		<i class="icon fa fa-search"></i><span class="text">Search</span>
 	</a>
 

@@ -177,7 +177,10 @@ $(document).ready(function() {
 </div> <!-- card.// -->
 <!-- ============================ COMPONENT 3  ================================= -->
 
-
+<p class="text-center my-4">
+    <a href="javascript:history.go(-1)" class="btn btn-light"> <i class="icon fa fa-arrow-left"></i>  <span class="text">Back</span> </a>
+</p>
+<br>
 </main>
 
 <nav class="nav-bottom">
@@ -185,7 +188,7 @@ $(document).ready(function() {
 		<i class="icon fa fa-home"></i><span class="text">Home</span>
 	</a>
 
-	<a href="page-search.html" class="nav-link">
+	<a href="<?php echo Search ?>" class="nav-link">
 		<i class="icon fa fa-search"></i><span class="text">Search</span>
 	</a>
 
