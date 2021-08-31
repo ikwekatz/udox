@@ -1,50 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="pragma" content="no-cache" />
-<meta http-equiv="cache-control" content="max-age=604800" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-<meta name="theme-color" content="#3a5beb" />
-<title>Website title - bootstrap html template</title>
-
-<link href="../asset/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-<!-- jQuery -->
-<script src="../asset/js/jquery-2.0.0.min.js" type="text/javascript"></script>
-
-<!-- Bootstrap4 files-->
-<script src="../asset/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-<link href="../asset/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-
-
-<!-- plugin: fancybox  -->
-<script src="../asset/plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
-<link href="../asset/plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
-
-
-<!-- Font awesome 5 -->
-<link href="../asset/fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
-
-<!-- custom style -->
-<link href="../asset/css/mobile.css" rel="stylesheet" type="text/css"/>
-
-
-<!-- custom javascript -->
-<script src="../asset/js/script.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-/// some script
-
-// jquery ready start
-$(document).ready(function() {
-	// jQuery code
-
-}); 
-// jquery end
-</script>
-
-</head>
+<?php include('../includes/header.php');?>
 <body>
 
 
@@ -159,21 +113,21 @@ $(document).ready(function() {
 </main>
 
 <nav class="nav-bottom">
-	<a href="index.html" class="nav-link">
-        <i class="icon fa fa-home"></i><span class="text">Home</span>
-    </a>
-	
-    <a href="a8category.php" class="nav-link">
-        <i class="icon fa fa-th"></i><span class="text">Category</span>
-    </a>
-	
-    <a href="page-cart-1.html" class="nav-link">
-        <i class="icon fa fa-shopping-cart"></i><span class="text">Cart</span>
-    </a>
-	
-    <a href="a5profile.php" class="nav-link active">
-        <i class="icon fa fa-user"></i><span class="text">Profile</span>
-    </a>
+	<a href="<?php echo Home ?>" class="nav-link active">
+		<i class="icon fa fa-home"></i><span class="text">Home</span>
+	</a>
+
+	<a href="page-search.html" class="nav-link">
+		<i class="icon fa fa-search"></i><span class="text">Search</span>
+	</a>
+
+	<a href="<?php echo Cart ?>" class="nav-link">
+		<i class="icon fa fa-shopping-cart"></i><span class="text">Cart</span>
+	</a>
+
+	<a href="<?php echo Profile ?>" class="nav-link">
+		<i class="icon fa fa-user"></i><span class="text">Profile</span>
+	</a>
 </nav> <!-- nav-bottom -->
 
 </nav> <!-- nav-bottom -->

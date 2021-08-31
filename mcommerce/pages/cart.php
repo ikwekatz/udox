@@ -1,47 +1,5 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="pragma" content="no-cache" />
-<meta http-equiv="cache-control" content="max-age=604800" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-
-<title>Website title - bootstrap html template</title>
-
-<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-<!-- jQuery -->
-<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
-
-<!-- Bootstrap4 files-->
-<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-
-<!-- Font awesome 5 -->
-<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
-
-<!-- custom style -->
-<link href="css/mobile.css" rel="stylesheet" type="text/css"/>
-
-
-<!-- custom javascript -->
-<script src="js/script.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-/// some script
-
-// jquery ready start
-$(document).ready(function() {
-	// jQuery code
-
-}); 
-// jquery end
-</script>
-
-</head>
+<?php include('../includes/header.php');?>
 <body>
-
-
 <!-- =============== screen-wrap =============== -->
 <div class="screen-wrap">
 
@@ -58,7 +16,7 @@ $(document).ready(function() {
 
 <article class="item-cart">
 	<figure class="itemside mb-3">
-		<div class="aside"><img src="images/items/item.jpg" class="rounded img-md"></div>
+		<div class="aside"><img src="<?php echo items.'item.jpg'?>" class="rounded img-md"></div>
 		<figcaption class="info">
 			<a href="#" class="title text-truncate">Great product name</a>
 			<small class="text-muted d-block mb-1">
@@ -89,7 +47,7 @@ $(document).ready(function() {
 
 <article class="item-cart">
 	<figure class="itemside mb-3">
-		<div class="aside"><img src="images/items/item.jpg" class="rounded img-md"></div>
+		<div class="aside"><img src="<?php echo items.'item.jpg'?>" class="rounded img-md"></div>
 		<figcaption class="info">
 			<a href="#" class="title text-truncate">Great product name</a>
 			<small class="text-muted d-block mb-1">
@@ -120,7 +78,7 @@ $(document).ready(function() {
 
 <article class="item-cart">
 	<figure class="itemside mb-3">
-		<div class="aside"><img src="images/items/item.jpg" class="rounded img-md"></div>
+		<div class="aside"><img src="<?php echo items.'item.jpg'?>" class="rounded img-md"></div>
 		<figcaption class="info">
 			<a href="#" class="title text-truncate">Great product name</a>
 			<small class="text-muted d-block mb-1">
@@ -176,22 +134,22 @@ $(document).ready(function() {
 </main>
 
 <nav class="nav-bottom">
-	<a href="index.html" class="nav-link">
-        <i class="icon fa fa-home"></i><span class="text">Home</span>
-    </a>
-	
-    <a href="page-category-1.html" class="nav-link">
-        <i class="icon fa fa-th"></i><span class="text">Category</span>
-    </a>
-	
-    <a href="page-cart-1.html" class="nav-link active">
-        <i class="icon fa fa-shopping-cart"></i><span class="text">Cart</span>
-    </a>
-	
-    <a href="page-profile.html" class="nav-link">
-        <i class="icon fa fa-user"></i><span class="text">Profile</span>
-    </a>
-</nav> <!-- nav-bottom -->
+	<a href="<?php echo Home ?>" class="nav-link active">
+		<i class="icon fa fa-home"></i><span class="text">Home</span>
+	</a>
+
+	<a href="page-search.html" class="nav-link">
+		<i class="icon fa fa-search"></i><span class="text">Search</span>
+	</a>
+
+	<a href="<?php echo Cart ?>" class="nav-link">
+		<i class="icon fa fa-shopping-cart"></i><span class="text">Cart</span>
+	</a>
+
+	<a href="<?php echo Profile ?>" class="nav-link">
+		<i class="icon fa fa-user"></i><span class="text">Profile</span>
+	</a>
+</nav>
 
 
 </div> 

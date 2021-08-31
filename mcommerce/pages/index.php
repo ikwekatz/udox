@@ -1,44 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="pragma" content="no-cache" />
-<meta http-equiv="cache-control" content="max-age=604800" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-
-<title>Website title - bootstrap html template</title>
-
-<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-<!-- jQuery -->
-<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
-
-<!-- Bootstrap4 files-->
-<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-
-<!-- Font awesome 5 -->
-<link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
-
-<!-- custom style -->
-<link href="css/mobile.css" rel="stylesheet" type="text/css"/>
-
-
-<!-- custom javascript -->
-<script src="js/script.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-/// some script
-
-// jquery ready start
-$(document).ready(function() {
-	// jQuery code
-
-}); 
-// jquery end
-</script>
-
-</head>
+<?php include('../includes/header.php')?>
 <body>
 
 
@@ -51,11 +11,11 @@ $(document).ready(function() {
 		<h6 class="text-white mt-3 mb-0">Welcome User!</h6>
 	</div>
 	<nav class="nav-sidebar">
-		<a href="index.html"> <i class="fa fa-home"></i> Home</a>
-		<a href="index.html"> <i class="fa fa-th"></i>	Categories</a>
+		<a href="<?php echo Home?>"> <i class="fa fa-home"></i> Home</a>
+		<a href="<?php echo Category?>"> <i class="fa fa-th"></i>	Categories</a>
 		<a href="index.html">  <i class="fa fa-info-circle"></i> About us</a>
 		<a href="index.html">  <i class="fa fa-building"></i> Company</a>
-		<a href="index.html">  <i class="fa fa-cog"></i> Settings</a>
+		<a href="<?php echo Setting?>">  <i class="fa fa-cog"></i> Settings</a>
 		<a href="index.html"> <i class="fa fa-home"></i> All screens</a>
 	</nav>
 	<hr>
@@ -80,15 +40,15 @@ $(document).ready(function() {
 
 <section class="mb-2 scroll-horizontal">
     <a href="#" class="item-slider card-banner">
-        <div class="card-body bg-warning" style="height:220px; background-image: url('images/banners/slide1.jpg');"> </div>
+        <div class="card-body bg-warning" style="height:220px; background-image: url('<?php echo banners."slide1.jpg"?>');"> </div>
         <div class="text-bottom"><h5 class="title">Super discount</h5></div>
     </a>
     <a href="#" class="item-slider card-banner">
-        <div class="card-body bg-warning" style="height:220px; background-image: url('images/banners/slide2.jpg');"> </div>
+        <div class="card-body bg-warning" style="height:220px; background-image: url('<?php echo banners."slide2.jpg"?>');"> </div>
         <div class="text-bottom"><h5 class="title">Get offers</h5></div>
     </a>
     <a href="#" class="item-slider card-banner">
-        <div class="card-body bg-warning" style="height:220px; background-image: url('images/banners/slide3.jpg');"> </div>
+        <div class="card-body bg-warning" style="height:220px; background-image: url('<?php echo banners."slide3.jpg"?>');"> </div>
         <div class="text-bottom"><h5 class="title">Best deals now</h5></div>
     </a>
 </section>
@@ -98,31 +58,31 @@ $(document).ready(function() {
 <ul class="row">
 	<li class="col-4">
 		<a href="#" class="btn-card-icontop btn">
-			<span class="icon"> <img src="images/icons/category-blue/cpu.svg" alt="">  </span>
+			<span class="icon"> <img src="<?php echo iconsB.'cpu.svg'?>" alt="">  </span>
 			<small class="text text-center"> Electronics</small>
 		</a>
 	</li>
 	<li class="col-4">
 		<a href="#" class="btn-card-icontop btn">
-			<span class="icon"> <img src="images/icons/category-blue/car.svg" alt=""> </span>
+			<span class="icon"> <img src="<?php echo iconsB.'car.svg'?>" alt=""> </span>
 			<small class="text text-center"> Motors </small>
 		</a>
     </li>
     <li class="col-4">
 		<a href="#" class="btn-card-icontop btn">
-			<span class="icon"> <img src="images/icons/category-blue/ball.svg" alt=""> </span>
+			<span class="icon"> <img src="<?php echo iconsB.'ball.svg'?>" alt=""> </span>
 			<small class="text text-center"> Sports</small>
 		</a>
     </li>
     <li class="col-4">
 		<a href="#" class="btn-card-icontop btn">
-			<span class="icon"> <img src="images/icons/category-blue/homeitem.svg" alt=""> </span>
+			<span class="icon"> <img src="<?php echo iconsB.'homeitem.svg'?>" alt=""> </span>
 			<small class="text text-center"> Devices</small>
 		</a>
     </li>
     <li class="col-4">
 		<a href="#" class="btn-card-icontop btn">
-			<span class="icon"> <img src="images/icons/category-blue/book.svg" alt=""> </span>
+			<span class="icon"> <img src="<?php echo iconsB.'book.svg'?>" alt=""> </span>
 			<small class="text text-center"> Books</small>
 		</a>
     </li>
@@ -142,7 +102,7 @@ $(document).ready(function() {
 <section class="scroll-horizontal padding-x">
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Great item name</p>
 				<div class="price">$27.00</div> <!-- price-wrap.// -->
@@ -151,7 +111,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Headset for music</p>
 				<div class="price">$27.00</div> <!-- price-wrap.// -->
@@ -160,7 +120,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">TP link modem</p>
 				<div class="price">$43.00</div> <!-- price-wrap.// -->
@@ -169,7 +129,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Great product name</p>
 				<div class="price">$98.50</div> <!-- price-wrap.// -->
@@ -178,7 +138,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Headset for music</p>
 				<div class="price">$27.00</div> <!-- price-wrap.// -->
@@ -187,7 +147,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">TP link modem</p>
 				<div class="price">$43.00</div> <!-- price-wrap.// -->
@@ -196,7 +156,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Great product name</p>
 				<div class="price">$98.50</div> <!-- price-wrap.// -->
@@ -213,7 +173,7 @@ $(document).ready(function() {
 <section class="scroll-horizontal  padding-x">
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Great item name</p>
 				<div class="price">$27.00</div> <!-- price-wrap.// -->
@@ -222,7 +182,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Headset for music</p>
 				<div class="price">$27.00</div> <!-- price-wrap.// -->
@@ -231,7 +191,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">TP link modem</p>
 				<div class="price">$43.00</div> <!-- price-wrap.// -->
@@ -240,7 +200,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Great product name</p>
 				<div class="price">$98.50</div> <!-- price-wrap.// -->
@@ -249,7 +209,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Headset for music</p>
 				<div class="price">$27.00</div> <!-- price-wrap.// -->
@@ -258,7 +218,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">TP link modem</p>
 				<div class="price">$43.00</div> <!-- price-wrap.// -->
@@ -267,7 +227,7 @@ $(document).ready(function() {
 	</div>
 	<div class="item">
 		<a href="#" class="product-sm">
-			<div class="img-wrap"> <img src="images/items/item.jpg"> </div>
+			<div class="img-wrap"> <img src="<?php echo items.'item.jpg'?>"> </div>
 			<div class="text-wrap">
 				<p class="title text-truncate">Great product name</p>
 				<div class="price">$98.50</div> <!-- price-wrap.// -->
@@ -310,7 +270,7 @@ $(document).ready(function() {
 </main>
 
 <nav class="nav-bottom">
-	<a href="index.html" class="nav-link active">
+	<a href="<?php echo Home ?>" class="nav-link active">
 		<i class="icon fa fa-home"></i><span class="text">Home</span>
 	</a>
 
@@ -318,11 +278,11 @@ $(document).ready(function() {
 		<i class="icon fa fa-search"></i><span class="text">Search</span>
 	</a>
 
-	<a href="page-cart-1.html" class="nav-link">
+	<a href="<?php echo Cart ?>" class="nav-link">
 		<i class="icon fa fa-shopping-cart"></i><span class="text">Cart</span>
 	</a>
 
-	<a href="page-profile.html" class="nav-link">
+	<a href="<?php echo Profile ?>" class="nav-link">
 		<i class="icon fa fa-user"></i><span class="text">Profile</span>
 	</a>
 </nav> <!-- nav-bottom -->

@@ -389,7 +389,7 @@
 
 <div class="row">
 	<div class="col-md-8">
-<div class="card-banner banner-quote overlay-gradient" style="background-image: url('<?php echo banners."'.banner9.jpg.'"?>');">
+<div class="card-banner banner-quote overlay-gradient" style="background-image: url('<?php echo banners."banner9.jpg"?>');">
   <div class="card-img-overlay white">
     <h3 class="card-title">An easy way to send request to suppliers</h3>
     <p class="card-text" style="max-width: 400px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
