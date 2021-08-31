@@ -23,6 +23,8 @@ define('Selling', '/udox/dcommerce/pages/selleritems.php');
 define('Wishlist', '/udox/dcommerce/pages/swishlist.php');
 define('Cart', '/udox/dcommerce/pages/shoppingcart.php');
 define('Profile', '/udox/dcommerce/pages/cprofile.php');
+define('items','/udox/dcommerce/asset/images/items/');
+define('banners','/udox/dcommerce/asset/images/banners/');
 
 ?>
 <link href="<?php echo BASE_URL.'/images/favicon.ico';?>" rel="shortcut icon" type="image/x-icon">

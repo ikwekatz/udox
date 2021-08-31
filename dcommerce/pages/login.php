@@ -9,7 +9,7 @@ require('../includes/header.php');
 	<div class="card mx-auto" style="max-width: 380px; margin-top:50px;">
       <div class="card-body">
       <h4 class="card-title mb-4">Sign in</h4>
-      <form>
+      <form method="POST" action="dashb.php">
       	 <div class="form-group">
 			 <input name="" class="form-control" placeholder="Username" type="text">
           </div> <!-- form-group// -->
