@@ -65,14 +65,12 @@ require('./includes/header.php');
 	<div class="item-slide p-2">
 <figure class="card card-product-grid mb-0">
 	<div > 
-
-
-            <div class="col-md-12">
-                <div href="#" >
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/1.jpg';?>"> </a>
+                <form name="product1" method="POST" action="<?php echo PAGES.'/pDetail.php'?>">
+                <div class="col-md-12">
+                <div id="pd1">    
+                <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/1.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
-
+                    <a href="#" class="title">Just another product name</a>
                         <div class="rating-wrap">
                             <ul class="rating-stars">
                                 <li style="width:80%" class="stars-active">
@@ -85,9 +83,11 @@ require('./includes/header.php');
                             </ul>
                             <span class="label-rating text-muted"> 34 reviws</span>
                         </div>
-                        <div class="price mt-1">$179.00</div>
+                    <div class="price mt-1">$179.00</div>
                         <!-- price-wrap.// -->
                     </figcaption>
+                </form>
+                       
                 </div>
             </div>
 
