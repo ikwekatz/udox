@@ -19,7 +19,7 @@ if(strlen($_SESSION['login']))
 				<?php } ?>
 
 					<li><a href="<?php echo myaccount ?>" class="text-white"><i class="icon fa fa-user"></i>My Account</a></li>
-					<li><a href="" class="text-white"><i class="icon fa fa-heart"></i>Wishlist</a></li>
+					<li><a href="<?php echo Wishlist ?>" class="text-white"><i class="icon fa fa-heart"></i>Wishlist</a></li>
 					<li><a href="<?php echo PAGES.'/shoppingcart.php' ?>" class="text-white"><i class="icon fa fa-shopping-cart"></i>My Cart</a></li>
 					<?php if(strlen($_SESSION['login'])==0)
     {   ?>

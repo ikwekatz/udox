@@ -25,6 +25,8 @@ define('Cart', '/udox/dcommerce/pages/shoppingcart.php');
 define('Profile', '/udox/dcommerce/pages/cprofile.php');
 define('items','/udox/dcommerce/asset/images/items/');
 define('banners','/udox/dcommerce/asset/images/banners/');
+define('scategory', '/udox/dcommerce/pages/scategory.php');
+define('gridv', '/udox/dcommerce/pages/gridlist.php');
 
 ?>
 <link href="<?php echo BASE_URL.'/images/favicon.ico';?>" rel="shortcut icon" type="image/x-icon">
@@ -181,44 +183,44 @@ if(isset($_POST["MBWEHE"])){
       	<li class="nav-item dropdown">
           <a class="nav-link pl-0" data-toggle="dropdown" href="#"><strong> <i class="fa fa-bars"></i> &nbsp  All category</strong></a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Foods and Drink</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Foods and Drink</a>
             <a class="dropdown-item" href="#">Home interior</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Category 1</a>
-            <a class="dropdown-item" href="#">Category 2</a>
-            <a class="dropdown-item" href="#">Category 3</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 1</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 2</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 3</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fashion</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Fashion</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Supermarket</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Supermarket</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Electronics</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Electronics</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Baby &amp Toys</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Baby &amp Toys</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fitness sport</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Fitness sport</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Clothing</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Clothing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Furnitures</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Furnitures</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"> More</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Foods and Drink</a>
-            <a class="dropdown-item" href="#">Home interior</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Foods and Drink</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Home interior</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Category 1</a>
-            <a class="dropdown-item" href="#">Category 2</a>
-            <a class="dropdown-item" href="#">Category 3</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 1</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 2</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 3</a>
           </div>
         </li>
       </ul>

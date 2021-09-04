@@ -89,9 +89,9 @@
 				<option>Cheapest</option>
 			</select>
 			<div class="btn-group">
-				<a href="page-listing-grid.html" class="btn btn-light active" data-toggle="tooltip" title="List view"> 
+				<a href="<?php echo scategory ?>"  class="btn btn-light " data-toggle="tooltip" title="List view"> 
 					<i class="fa fa-bars"></i></a>
-				<a href="page-listing-large.html" class="btn btn-light" data-toggle="tooltip" title="Grid view"> 
+				<a href="<?php echo gridv ?> " class="btn btn-light active" data-toggle="tooltip" title="Grid view"> 
 					<i class="fa fa-th"></i></a>
 			</div>
 		</div>

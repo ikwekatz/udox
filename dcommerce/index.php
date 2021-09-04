@@ -65,12 +65,12 @@ require('./includes/header.php');
 	<div class="item-slide p-2">
 <figure class="card card-product-grid mb-0">
 	<div > 
+    <div class="col-md-12">
                 <form name="product1" method="POST" action="<?php echo PAGES.'/pDetail.php'?>">
-                <div class="col-md-12">
-                <div id="pd1">    
-                <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/1.jpg';?>"> </a>
+                 <div id="pd1">    
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/1.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                    <a href="#" class="title">Just another product name</a>
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Just another product name</a>
                         <div class="rating-wrap">
                             <ul class="rating-stars">
                                 <li style="width:80%" class="stars-active">
@@ -85,6 +85,7 @@ require('./includes/header.php');
                         </div>
                     <div class="price mt-1">$179.00</div>
                         <!-- price-wrap.// -->
+
                     </figcaption>
                 </form>
                        
@@ -102,9 +103,9 @@ require('./includes/header.php');
 
 <div class="col-md-12">
     <div href="#" >
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/2.jpg';?>"> </a>
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/2.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Some item name here</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Some item name here</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -137,9 +138,9 @@ require('./includes/header.php');
 
 <div class="col-md-12">
     <div href="#" >
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/3.jpg';?>"> </a>
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/3.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Great product name here</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Great product name here</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -170,9 +171,9 @@ require('./includes/header.php');
 
 <div class="col-md-12">
     <div href="#" >
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/4.jpg';?>"> </a>
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/4.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Just another product name</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -208,9 +209,9 @@ require('./includes/header.php');
 
 <div class="col-md-12">
     <div href="#" >
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/3.jpg';?>"> </a>
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/3.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Great product name here</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Great product name here</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -241,9 +242,9 @@ require('./includes/header.php');
 
 <div class="col-md-12">
     <div href="#" >
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/4.jpg';?>"> </a>
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/4.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Just another product name</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -292,7 +293,7 @@ require('./includes/header.php');
        <!-- content background div -->    
         <div class="mt-4 row col-md-12">
             <div class="col-md-3 ">
-                <div href="#" class="card card-product-grid">
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
                     <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/5.jpg';?>"> </a>
                     <figcaption class="info-wrap">
                         <a href="#" class="title">Just another product name</a>
@@ -315,10 +316,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/6.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/6.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Some item name here</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Some item name here</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -338,10 +339,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/7.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/7.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Great product name here</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Great product name here</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -361,10 +362,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/9.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/9.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Just another product name</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -384,10 +385,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/5.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/5.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Just another product name</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -407,10 +408,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/6.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/6.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Some item name here</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Some item name here</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -430,10 +431,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/7.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/7.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Great product name here</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Great product name here</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -453,10 +454,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/9.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/9.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Just another product name</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">
@@ -508,10 +509,10 @@ require('./includes/header.php');
       
         <div class="row m-4">
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/1.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/1.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Just another product name</a>
                         <div class="price mt-1">$179.00</div>
                         <!-- price-wrap.// -->
                     </figcaption>
@@ -530,10 +531,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/3.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/3.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Great product name here</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Great product name here</a>
                         <div class="price mt-1">$56.00</div>
                         <!-- price-wrap.// -->
                     </figcaption>
@@ -541,10 +542,10 @@ require('./includes/header.php');
             </div>
             <!-- col.// -->
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/4.jpg';?>"> </a>
+                <div href="<?php echo PAGES.'/pDetail.php'?>" class="card card-product-grid">
+                    <a href="<?php echo PAGES.'/pDetail.php'?>" class="img-wrap"> <img src="<?php echo BASE_URL.'/images/items/4.jpg';?>"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#" class="title">Just another product name</a>
+                        <a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Just another product name</a>
                         <div class="price mt-1">$179.00</div>
                         <!-- price-wrap.// -->
                     </figcaption>
@@ -562,56 +563,5 @@ require('./includes/header.php');
 <!-- ========================= SECTION CONTENT END// ========================= -->
 </div>
 <!-- ==================================container_body end======================-->
-<!-- ========================= SECTION FEATURE ========================= -->
-<section class="section-content padding-y-sm">
-    <div class="container">
-        <article class=" card-body">
-
-
-            <div class="row">
-                <div class="col-md-4">
-                    <figure class="item-feature">
-                        <span class="text-primary"><i class="fa fa-2x fa-truck"></i></span>
-                        <figcaption class="pt-3">
-                            <h5 class="title">Fast delivery</h5>
-                            <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
-                        </figcaption>
-                    </figure>
-                    <!-- iconbox // -->
-                </div>
-                <!-- col // -->
-                <div class="col-md-4">
-                    <figure class="item-feature">
-                        <span class="text-primary"><i class="fa fa-2x fa-landmark"></i></span>
-                        <figcaption class="pt-3">
-                            <h5 class="title">Creative Strategy</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            </p>
-                        </figcaption>
-                    </figure>
-                    <!-- iconbox // -->
-                </div>
-                <!-- col // -->
-                <div class="col-md-4">
-                    <figure class="item-feature">
-                        <span class="text-primary"><i class="fa fa-2x fa-lock"></i></span>
-                        <figcaption class="pt-3">
-                            <h5 class="title">High secured </h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            </p>
-                        </figcaption>
-                    </figure>
-                    <!-- iconbox // -->
-                </div>
-                <!-- col // -->
-            </div>
-        </article>
-
-    </div>
-    <!-- container .//  -->
-</section>
-<!-- ========================= SECTION FEATURE END// ========================= -->
-
-
 <?php require('./includes/footer.php');
 ?>

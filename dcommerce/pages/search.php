@@ -42,44 +42,24 @@ include('../includes/header.php');
 				    </div>
 				</form> <!-- search-wrap .end// -->
 			</div> <!-- col.// -->
-			<div class="col-xl-4 col-lg-4 col-md-6">
-				<div class="widgets-wrap float-md-right">
-					<div class="widget-header mr-3">
-						<a href="#" class="widget-view">
-							<div class="icon-area">
-								<i class="fa fa-user"></i>
-								<span class="notify">3</span>
-							</div>
-							<small class="text"> My profile </small>
-						</a>
+	<div class="col-lg-4 col-sm-6 col-12">
+		<div class="widgets-wrap float-lg-right">
+			<div class="widget-header  mr-3">
+				<a href="<?php echo PAGES.'/shoppingcart.php';?>" class="icon icon-sm rounded-circle border"><i class="fa fa-shopping-cart"></i></a>
+				<span class="badge badge-pill badge-danger notify">0</span>
+			</div>
+			<div class="widget-header icontext">
+				<a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-user"></i></a>
+				<div class="text">
+					<span class="text-muted">Welcome!</span>
+					<div> 
+						<a href="<?php echo login ?>">Sign in</a> |  
+						<a href="<?php echo register ?>"> Register</a>
 					</div>
-					<div class="widget-header mr-3">
-						<a href="#" class="widget-view">
-							<div class="icon-area">
-								<i class="fa fa-comment-dots"></i>
-								<span class="notify">1</span>
-							</div>
-							<small class="text"> Message </small>
-						</a>
-					</div>
-					<div class="widget-header mr-3">
-						<a href="#" class="widget-view">
-							<div class="icon-area">
-								<i class="fa fa-store"></i>
-							</div>
-							<small class="text"> Orders </small>
-						</a>
-					</div>
-					<div class="widget-header">
-						<a href="#" class="widget-view">
-							<div class="icon-area">
-								<i class="fa fa-shopping-cart"></i>
-							</div>
-							<small class="text"> Cart </small>
-						</a>
-					</div>
-				</div> <!-- widgets-wrap.// -->
-			</div> <!-- col.// -->
+				</div>
+			</div>
+		</div> <!-- widgets-wrap.// -->
+	</div> <!-- col.// -->
 		</div> <!-- row.// -->
 	</div> <!-- container.// -->
 </section> <!-- header-main .// -->
@@ -94,44 +74,44 @@ include('../includes/header.php');
       	<li class="nav-item dropdown">
           <a class="nav-link pl-0" data-toggle="dropdown" href="#"><strong> <i class="fa fa-bars"></i> &nbsp  All category</strong></a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Foods and Drink</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Foods and Drink</a>
             <a class="dropdown-item" href="#">Home interior</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Category 1</a>
-            <a class="dropdown-item" href="#">Category 2</a>
-            <a class="dropdown-item" href="#">Category 3</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 1</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 2</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 3</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fashion</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Fashion</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Supermarket</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Supermarket</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Electronics</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Electronics</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Baby &amp Toys</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Baby &amp Toys</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fitness sport</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Fitness sport</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Clothing</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Clothing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Furnitures</a>
+          <a class="nav-link" href="<?php echo scategory ?>">Furnitures</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"> More</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Foods and Drink</a>
-            <a class="dropdown-item" href="#">Home interior</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Foods and Drink</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Home interior</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Category 1</a>
-            <a class="dropdown-item" href="#">Category 2</a>
-            <a class="dropdown-item" href="#">Category 3</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 1</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 2</a>
+            <a class="dropdown-item" href="<?php echo scategory ?>">Category 3</a>
           </div>
         </li>
       </ul>
@@ -334,17 +314,17 @@ include('../includes/header.php');
 			<div class="img-wrap"> 
 				<span class="badge badge-danger"> NEW </span>
 				<img src="<?php echo BASE_URL.'/images/items/1.jpg';?>">
-				<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+				<a class="btn-overlay" href="<?php echo PAGES.'/pDetail.php'?>"><i class="fa fa-search-plus"></i> Quick view</a>
 			</div> <!-- img-wrap.// -->
 			<figcaption class="info-wrap">
 				<div class="fix-height">
-					<a href="#" class="title">Great item name goes here</a>
+					<a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Great item name goes here</a>
 					<div class="price-wrap mt-2">
 						<span class="price">$1280</span>
 						<del class="price-old">$1980</del>
 					</div> <!-- price-wrap.// -->
 				</div>
-				<a href="#" class="btn btn-block btn-primary">Add to cart </a>
+				<a href="<?php echo Cart ?>" class="btn btn-block btn-primary">Add to cart </a>
 			</figcaption>
 		</figure>
 	</div> <!-- col.// -->
@@ -353,16 +333,16 @@ include('../includes/header.php');
 		<figure class="card card-product-grid">
 			<div class="img-wrap"> 
 				<img src="<?php echo BASE_URL.'/images/items/2.jpg'?>">
-				<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+				<a class="btn-overlay" href="<?php echo PAGES.'/pDetail.php'?>"><i class="fa fa-search-plus"></i> Quick view</a>
 			</div> <!-- img-wrap.// -->
 			<figcaption class="info-wrap">
 				<div class="fix-height">
-					<a href="#" class="title">Product name goes here just for demo item</a>
+					<a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Product name goes here just for demo item</a>
 					<div class="price-wrap mt-2">
 						<span class="price">$1280</span>
 					</div> <!-- price-wrap.// -->
 				</div>
-				<a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+				<a href="<?php echo Cart ?>" class="btn btn-block btn-primary">Add to cart </a>	
 			</figcaption>
 		</figure>
 	</div> <!-- col.// -->
@@ -371,16 +351,16 @@ include('../includes/header.php');
 		<figure class="card card-product-grid">
 			<div class="img-wrap"> 
 				<img src="<?php echo BASE_URL.'/images/items/3.jpg';?>">
-				<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+				<a class="btn-overlay" href="<?php echo PAGES.'/pDetail.php'?>"><i class="fa fa-search-plus"></i> Quick view</a>
 			</div> <!-- img-wrap.// -->
 			<figcaption class="info-wrap">
 				<div class="fix-height">
-					<a href="#" class="title">Product name goes here just for demo item</a>
+					<a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Product name goes here just for demo item</a>
 					<div class="price-wrap mt-2">
 						<span class="price">$1280</span>
 					</div> <!-- price-wrap.// -->
 				</div>
-				<a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+				<a href="<?php echo Cart ?>" class="btn btn-block btn-primary">Add to cart </a>	
 			</figcaption>
 		</figure>
 	</div> <!-- col.// -->
@@ -389,16 +369,16 @@ include('../includes/header.php');
 		<figure class="card card-product-grid">
 			<div class="img-wrap"> 
 				<img src="<?php echo BASE_URL.'/images/items/4.jpg';?>">
-				<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+				<a class="btn-overlay" href="<?php echo PAGES.'/pDetail.php'?>"><i class="fa fa-search-plus"></i> Quick view</a>
 			</div> <!-- img-wrap.// -->
 			<figcaption class="info-wrap">
 				<div class="fix-height">
-					<a href="#" class="title">Product name goes here just for demo item</a>
+					<a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Product name goes here just for demo item</a>
 					<div class="price-wrap mt-2">
 						<span class="price">$1280</span>
 					</div> <!-- price-wrap.// -->
 				</div>
-				<a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+				<a href="<?php echo Cart ?>" class="btn btn-block btn-primary">Add to cart </a>	
 			</figcaption>
 		</figure>
 	</div> <!-- col.// -->
@@ -407,16 +387,16 @@ include('../includes/header.php');
 		<figure class="card card-product-grid">
 			<div class="img-wrap"> 
 				<img src="<?php echo BASE_URL.'/images/items/5.jpg';?>">
-				<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+				<a class="btn-overlay" href="<?php echo PAGES.'/pDetail.php'?>"><i class="fa fa-search-plus"></i> Quick view</a>
 			</div> <!-- img-wrap.// -->
 			<figcaption class="info-wrap">
 				<div class="fix-height">
-					<a href="#" class="title">Product name goes here just for demo item</a>
+					<a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Product name goes here just for demo item</a>
 					<div class="price-wrap mt-2">
 						<span class="price">$1280</span>
 					</div> <!-- price-wrap.// -->
 				</div>
-				<a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+				<a href="<?php echo Cart ?>" class="btn btn-block btn-primary">Add to cart </a>	
 			</figcaption>
 		</figure>
 	</div> <!-- col.// -->
@@ -425,16 +405,16 @@ include('../includes/header.php');
 		<figure class="card card-product-grid">
 			<div class="img-wrap"> 
 				<img src="<?php echo BASE_URL.'/images/items/6.jpg'?>">
-				<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+				<a class="btn-overlay" href="<?php echo PAGES.'/pDetail.php'?>"><i class="fa fa-search-plus"></i> Quick view</a>
 			</div> <!-- img-wrap.// -->
 			<figcaption class="info-wrap">
 				<div class="fix-height">
-					<a href="#" class="title">Product name goes here just for demo item</a>
+					<a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Product name goes here just for demo item</a>
 					<div class="price-wrap mt-2">
 						<span class="price">$1280</span>
 					</div> <!-- price-wrap.// -->
 				</div>
-				<a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+				<a href="<?php echo Cart ?>" class="btn btn-block btn-primary">Add to cart </a>	
 			</figcaption>
 		</figure>
 	</div> <!-- col.// -->
@@ -443,16 +423,16 @@ include('../includes/header.php');
 		<figure class="card card-product-grid">
 			<div class="img-wrap"> 
 				<img src="<?php echo BASE_URL.'/images/items/7.jpg'?>">
-				<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+				<a class="btn-overlay" href="<?php echo PAGES.'/pDetail.php'?>"><i class="fa fa-search-plus"></i> Quick view</a>
 			</div> <!-- img-wrap.// -->
 			<figcaption class="info-wrap">
 				<div class="fix-height">
-					<a href="#" class="title">Product name goes here just for demo item</a>
+					<a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Product name goes here just for demo item</a>
 					<div class="price-wrap mt-2">
 						<span class="price">$1280</span>
 					</div> <!-- price-wrap.// -->
 				</div>
-				<a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+				<a href="<?php echo Cart ?>" class="btn btn-block btn-primary">Add to cart </a>	
 			</figcaption>
 		</figure>
 	</div> <!-- col.// -->
@@ -461,16 +441,16 @@ include('../includes/header.php');
 		<figure class="card card-product-grid">
 			<div class="img-wrap"> 
 				<img src="<?php echo BASE_URL.'/images/items/1.jpg';?>">
-				<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+				<a class="btn-overlay" href="<?php echo PAGES.'/pDetail.php'?>"><i class="fa fa-search-plus"></i> Quick view</a>
 			</div> <!-- img-wrap.// -->
 			<figcaption class="info-wrap">
 				<div class="fix-height">
-					<a href="#" class="title">Product name goes here just for demo item</a>
+					<a href="<?php echo PAGES.'/pDetail.php'?>" class="title">Product name goes here just for demo item</a>
 					<div class="price-wrap mt-2">
 						<span class="price">$1280</span>
 					</div> <!-- price-wrap.// -->
 				</div>
-				<a href="#" class="btn btn-block btn-primary">Add to cart </a>	
+				<a href="<?php echo Cart ?>" class="btn btn-block btn-primary">Add to cart </a>	
 			</figcaption>
 		</figure>
 	</div> <!-- col.// -->
