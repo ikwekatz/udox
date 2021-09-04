@@ -124,9 +124,13 @@
 		<dd class="text-right"><strong>$59.97</strong></dd>
 	</dl>
 
-	<a href="page-order-step1.html" class="btn btn-primary btn-block mt-3"> <span class="text"> Continue </span> <i class="fa fa-chevron-right"></i></a>
+	<a href="orders1.php" class="btn btn-primary btn-block mt-3"> <span class="text"> Continue </span> <i class="fa fa-chevron-right"></i></a>
 
-	<a href="<?php echo Home ?>" class="btn btn-light btn-block"> <i class="fa fa-arrow-left"></i> <span class="text">More pages</span></a>
+	<p class="text-center my-4"><a hre="<?php echo Home?>" >
+                <a href="javascript:history.go(-1)" class="btn btn-light btn-block">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="text">Back</span>
+                </a>
 
 
 </section>

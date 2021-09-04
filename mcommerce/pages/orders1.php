@@ -33,7 +33,7 @@
 </div>
 
 
-<form action="#">
+<form action="orders2.php">
 
 <p class="alert alert-success"> Some message is here!</p>
 
@@ -85,7 +85,13 @@
 
 </form>
 
-<br><br>
+<br>
+<p class="text-center my-4"><a hre="<?php echo Home?>" >
+                <a href="javascript:history.go(-1)" class="btn btn-light btn-block">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="text">Back</span>
+                </a>
+<br>
 
 </section> <!-- section-products  .// -->
 

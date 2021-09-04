@@ -50,7 +50,7 @@
 
 <p class="alert alert-success"> <i class="fa fa-lock"></i> Some secureity information</p>
     
-<form role="form">
+<form role="form" action="orderf.php">
     <div class="form-group">
     <label for="username">Name on card</label>
     <input type="text" class="form-control" name="username" placeholder="Ex. John Smith" required="">
@@ -98,7 +98,7 @@
     </div> <!-- row.// -->
     
     
-    <button class="btn btn-primary btn-block" type="button"> <i class="fa fa-check"></i> Confirm  </button>
+    <button class="btn btn-primary btn-block" type="submit"> <i class="fa fa-check"></i> Confirm  </button>
 
     </form>
     

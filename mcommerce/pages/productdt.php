@@ -99,9 +99,12 @@
 </section> 
 
 <br>
-<p class="text-center my-4"><a href="index.html" class="btn btn-light"> <i class="fa fa-arrow-left"></i> <span class="text">More pages</span></a></p>
+<p class="text-center my-4"><a hre="<?php echo Home?>" >
+                <a href="javascript:history.go(-1)" class="btn btn-light btn-block">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="text">Back</span>
+                </a>
 <br>
-
 </main>
 
 <nav class="bar-bottom">
