@@ -160,7 +160,7 @@
 </main>
 
 <nav class="nav-bottom">
-	<a href="<?php echo Home ?>" class="nav-link active">
+	<a href="<?php echo Home ?>" class="nav-link ">
 		<i class="icon fa fa-home"></i><span class="text">Home</span>
 	</a>
 
@@ -172,7 +172,7 @@
 		<i class="icon fa fa-shopping-cart"></i><span class="text">Cart</span>
 	</a>
 
-	<a href="<?php echo Profile ?>" class="nav-link">
+	<a href="<?php echo Profile ?>" class="nav-link active">
 		<i class="icon fa fa-user"></i><span class="text">Profile</span>
 	</a>
 </nav> <!-- nav-bottom -->

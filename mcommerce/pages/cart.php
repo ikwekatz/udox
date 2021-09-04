@@ -134,7 +134,7 @@
 </main>
 
 <nav class="nav-bottom">
-	<a href="<?php echo Home ?>" class="nav-link active">
+	<a href="<?php echo Home ?>" class="nav-link ">
 		<i class="icon fa fa-home"></i><span class="text">Home</span>
 	</a>
 
@@ -142,7 +142,7 @@
 		<i class="icon fa fa-search"></i><span class="text">Search</span>
 	</a>
 
-	<a href="<?php echo Cart ?>" class="nav-link">
+	<a href="<?php echo Cart ?>" class="nav-link active">
 		<i class="icon fa fa-shopping-cart"></i><span class="text">Cart</span>
 	</a>
 

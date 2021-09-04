@@ -54,5 +54,5 @@ define('Search', '/udox/mcommerce/pages/search.php');
 define('banners', '/udox/dcommerce/asset/images/banners/');
 define('items','/udox/mcommerce/asset/images/items/');
 define('iconsB','/udox/mcommerce/asset/images/icons/category-blue/');
-
+define("BASE_URL", "/udox/dcommerce/asset");
 ?>

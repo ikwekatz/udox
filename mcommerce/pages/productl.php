@@ -119,19 +119,19 @@
 
 
 <nav class="nav-bottom">
-	<a href="index.html" class="nav-link">
+	<a href="index.php" class="nav-link">
         <i class="icon fa fa-home"></i><span class="text">Home</span>
     </a>
 	
-    <a href="page-category-1.html" class="nav-link active">
+    <a href="productl.php" class="nav-link active">
         <i class="icon fa fa-box"></i><span class="text">Products</span>
     </a>
 	
-    <a href="page-cart-1.html" class="nav-link">
+    <a href="cart.php" class="nav-link">
         <i class="icon fa fa-shopping-cart"></i><span class="text">Cart</span>
     </a>
 	
-    <a href="page-profile.html" class="nav-link">
+    <a href="a5profile.php" class="nav-link">
         <i class="icon fa fa-user"></i><span class="text">Profile</span>
     </a>
 </nav> <!-- nav-bottom -->

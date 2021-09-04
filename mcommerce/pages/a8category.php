@@ -20,49 +20,49 @@
 
 <ul class="row">
     <li class="col-6">
-        <a href="#" class="btn-icontop-lg">
+        <a href="productl.php" class="btn-icontop-lg">
             <span class="icon"> <img src="images/icons/category-blue/cpu.svg" alt=""> </span>
             <span class="text text-truncate"> Electronics </span>
         </a>
     </li>
     <li class="col-6">
-        <a href="#" class="btn-icontop-lg">
+        <a href="productl.php" class="btn-icontop-lg">
             <span class="icon"> <img src="images/icons/category-blue/homeitem.svg" alt=""> </span>
             <span class="text text-truncate"> Home items </span>
         </a>
     </li>
     <li class="col-6">
-        <a href="#" class="btn-icontop-lg">
+        <a href="productl.php" class="btn-icontop-lg">
             <span class="icon"> <img src="images/icons/category-blue/book.svg" alt=""> </span>
             <span class="text text-truncate"> Books </span>
         </a>
     </li>
     <li class="col-6">
-        <a href="#" class="btn-icontop-lg">
+        <a href="productl.php" class="btn-icontop-lg">
             <span class="icon"> <img src="images/icons/category-blue/ball.svg" alt=""> </span>
             <span class="text text-truncate"> Sports </span>
         </a>
     </li>
     <li class="col-6">
-        <a href="#" class="btn-icontop-lg">
+        <a href="productl.php" class="btn-icontop-lg">
             <span class="icon"> <img src="images/icons/category-blue/car.svg" alt=""> </span>
             <span class="text text-truncate"> Auto parts </span>
         </a>
     </li>
     <li class="col-6">
-        <a href="#" class="btn-icontop-lg">
+        <a href="productl.php" class="btn-icontop-lg">
             <span class="icon"> <img src="images/icons/category-blue/shoe-lady.svg" alt=""> </span>
             <span class="text text-truncate"> Shoes </span>
         </a>
     </li>
     <li class="col-6">
-        <a href="#" class="btn-icontop-lg">
+        <a href="productl.php" class="btn-icontop-lg">
             <span class="icon"> <img src="images/icons/category-blue/shirt.svg" alt=""> </span>
             <span class="text text-truncate"> Clothes</span>
         </a>
     </li>
     <li class="col-6">
-        <a href="#" class="btn-icontop-lg">
+        <a href="productl.php" class="btn-icontop-lg">
             <span class="icon"> <i class="fa  fa-ellipsis-h"></i> </span>
             <span class="text text-truncate"> More </span>
         </a>
@@ -71,9 +71,12 @@
 
 
 
-<p class="text-center my-4"><a hre="<?php echo Home?>" class="btn btn-light"> <i class="fa fa-arrow-left"></i> <span class="text">Back</span></a></p>
-
-
+<p class="text-center my-4"><a hre="<?php echo Home?>" >
+                <a href="javascript:history.go(-1)" class="btn btn-light btn-block">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="text">Back</span>
+                </a>
+            </section>
 </main>
 
 
