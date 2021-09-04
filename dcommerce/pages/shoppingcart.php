@@ -2,9 +2,10 @@
 require('../includes/header.php');
 ?>
 <!-- ============================ COMPONENT CART ================================= -->
-<div class="row mt-3">
+<div class="row mt-3" style="background-color:#f8f8f8;">
 		<main class="col-md-9">
-			<article class="card card-body mb-3">
+			<div class="card ml-5 mr-2">
+			<article class=" card-body mb-3 ">
 				<div class="row align-items-center">
 					<div class="col-md-6">
 						<figure class="itemside">
@@ -35,7 +36,7 @@ require('../includes/header.php');
 				</div> <!-- row.// -->
 			</article> <!-- card .// -->
 
-			<article class="card card-body mb-3">
+			<article class="card card-body">
 				<div class="row align-items-center">
 					<div class="col-md-6">
 						<figure class="itemside">
@@ -99,7 +100,7 @@ require('../includes/header.php');
 
 		</main> <!-- col.// -->
 		<aside class="col-md-3">
-			<div class="card">
+			<div class="card  mr-5">
 			<div class="card-body">
 				<div class="input-group mb-3">
 					<input type="text" class="form-control" name="" placeholder="Promo code">
@@ -129,6 +130,7 @@ require('../includes/header.php');
 		</aside> <!-- col.// -->
 	</div> <!-- row.// -->
 <!-- ============================ COMPONENT CART END .// ================================= -->
+<div style="height:20px"></div>
 <?php 
 require('../includes/footer.php');
 ?>

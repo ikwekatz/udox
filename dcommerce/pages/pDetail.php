@@ -88,7 +88,7 @@ consequat </p>
 			</div>
 		</div> <!-- col.// -->
 		<div class="form-group col-md">
-			<a href="#"  class="btn  btn-primary"> 
+			<a href="<?php echo Cart ?>"  class="btn  btn-primary"> 
 				<i class="fas fa-shopping-cart"></i> <span class="text">Add to cart</span> 
 			</a>
 			<a href="#" class="btn btn-light">

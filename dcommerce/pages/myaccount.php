@@ -55,7 +55,7 @@ else
 	    <!-- Bootstrap Core CSS 
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	    
-	    <!-- Customizable CSS 
+	    Customizable CSS 
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
@@ -245,3 +245,5 @@ return true;
 </body>
 </html>
 <?php } ?>
+
+<?php include('../includes/footer.php')?>
