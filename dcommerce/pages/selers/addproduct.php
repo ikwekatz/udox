@@ -1,72 +1,93 @@
-<?php include('../../includes/sheader.php');
-?>
-<div class="row ml-5 mt-3 mr-3">
-	<aside class="col-md-3">
-		<nav class="list-group">
-				<a class="list-group-item" href="<?php echo Profile ?>"> Account overview  </a>
-				<a class="list-group-item active" href="<?php echo bill ?>"> My Address </a>
-				<a class="list-group-item" href="<?php echo Order ?>"> My Orders </a>
-				<a class="list-group-item" href="<?php echo Wishlist ?>"> My Wishlist </a>
-				<a class="list-group-item" href="<?php echo Selling ?>"> My Selling Items </a>
-				<a class="list-group-item" href="<?php echo Account ?>"> Settings </a>
-				<a class="list-group-item" href=""> Log out </a>
-		</nav>
-	</aside> <!-- col.// -->
-	<main class="col-md-9">
+<!DOCTYPE html>
+<html lang="en">
+<?php define("BASE_URL", "/udox/dcommerce/asset") ?>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Untitled</title>
+  <link href="<?php echo BASE_URL.'/images/favicon.ico';?>" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" href="<?php echo BASE_URL.'/css/main.css';?>">
+<!-- jQuery -->
+<script src="<?php echo BASE_URL.'/js/jquery-2.0.0.min.js';?>" type="text/javascript"></script>
 
-		<article class="card">
-			<div class="card-body">
+<!-- Bootstrap4 files-->
+<script src="<?php echo BASE_URL.'/js/bootstrap.bundle.min.js'; ?>" type="text/javascript"></script>
+<link href="<?php echo BASE_URL.'/css/bootstrap.css';?>" rel="stylesheet" type="text/css"/>
 
-		<div class="row">
-				<div class="col-md-6">
-					<figure class="itemside mb-4">
-						<div class="aside"><img src="<?php echo image.'/1.jpg'?>"  class="border img-md"></div>
-						<figcaption class="info">
-							<a href="#" class="title">Great product name goes here</a>
-							<p class="price mb-2">$80</p>
-							<a href="#" class="btn btn-secondary btn-sm"> Add to cart </a>
-							<a href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" title="" data-original-title="Remove from wishlist"> <i class="fa fa-times"></i> </a>
-						</figcaption>
-					</figure>
-				</div> <!-- col.// -->
+<!-- Font awesome 5 -->
+<link href="<?php echo BASE_URL.'/fonts/fontawesome/css/all.min.css';?>" type="text/css" rel="stylesheet">
 
-				<div class="col-md-6">
-					<figure class="itemside mb-4">
-						<div class="aside"><img src="<?php echo image.'/2.jpg'?>" class="border img-md"></div>
-						<figcaption class="info">
-							<a href="#" class="title">Men's Jackeet for Winter </a>
-							<p class="price mb-2">$1280</p>
-							<a href="#" class="btn btn-secondary btn-sm"> Add to cart </a>
-							<a href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" title="" data-original-title="Remove from wishlist"> <i class="fa fa-times"></i> </a>
-						</figcaption>
-					</figure>
-				</div> <!-- col.// -->
+<!-- plugin: slickslider -->
+<link href="<?php echo BASE_URL.'/plugins/slickslider/slick.css';?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo BASE_URL.'/plugins/slickslider/slick-theme.css';?>" rel="stylesheet" type="text/css" />
+<script src="<?php echo BASE_URL.'/plugins/slickslider/slick.min.js';?>"></script>
 
-				<div class="col-md-6">
-					<figure class="itemside mb-4">
-						<div class="aside"><img src="<?php echo image.'/3.jpg'?>" class="border img-md"></div>
-						<figcaption class="info">
-							<a href="#" class="title">Another book of item goes here </a>
-							<p class="price mb-2">$280</p>
-							<a href="#" class="btn btn-secondary btn-sm"> Add to cart </a>
-							<a href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" title="" data-original-title="Remove from wishlist"> <i class="fa fa-times"></i> </a>
-						</figcaption>
-					</figure>
-				</div> <!-- col.// -->
-			</div> <!-- row .//  -->
+<!-- plugin: owl carousel  -->
+<link href="<?php echo BASE_URL.'/plugins/owlcarousel/assets/owl.carousel.css';?>" rel="stylesheet">
+<link href="<?php echo BASE_URL.'/plugins/owlcarousel/assets/owl.theme.default.css';?>" rel="stylesheet">
+<script src="<?php echo BASE_URL.'/plugins/owlcarousel/owl.carousel.min.js';?>"></script>
+<!-- custom style -->
+<link href="<?php echo BASE_URL.'/css/ui.css';?>" rel="stylesheet" type="text/css"/>
+<link href="<?php echo BASE_URL.'/css/responsive.css';?>" rel="stylesheet" media="only screen and (max-width: 1200px)" />
 
-			</div> <!-- card-body.// -->
-		</article>
+<!-- custom javascript -->
+<script src="<?php echo BASE_URL.'/js/script.js';?>" type="text/javascript"></script>
 
-
-	</main> <!-- col.// -->
-</div>
-
-<!-- ========================= SECTION CONTENT END// ========================= -->
-
-<!-- ========================= FOOTER ========================= -->
-<?php include('../../includes/footer.php')?>;
-<!-- ========================= FOOTER END // ========================= -->
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/bootstrap/css/bootstrap.min.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/fonts/font-awesome.min.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/fonts/simple-line-icons.min.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/css/Button-modal-ecommerce-1.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/css/Button-modal-ecommerce.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/css/Edit-Form.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/css/styles.css'?>">
+  <style>
+    .kv-avatar .krajee-default.file-preview-frame,.kv-avatar .krajee-default.file-preview-frame:hover {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        text-align: center;
+    }
+    .kv-avatar {
+        display: inline-block;
+    }
+    .kv-avatar .file-input {
+        display: table-cell;
+        width: 213px;
+    }
+    .kv-reqd {
+        color: red;
+        font-family: monospace;
+        font-weight: normal;
+    }
+    </style>
+     
+</head>
+<!-- some CSS styling changes and overrides -->
+<style>
+  .kv-avatar .krajee-default.file-preview-frame,.kv-avatar .krajee-default.file-preview-frame:hover {
+      margin: 0;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      text-align: center;
+  }
+  .kv-avatar {
+      display: inline-block;
+  }
+  .kv-avatar .file-input {
+      display: table-cell;
+      width: 213px;
+  }
+  .kv-reqd {
+      color: red;
+      font-family: monospace;
+      font-weight: normal;
+  }
+  </style>
+   
+   
+<body>
   <div class="card shadow mb-4">
     <div class="card-header py-3">
         <div class="row col-sm-12">
@@ -237,5 +258,4 @@ function ($, window, document) {
       allowedFileExtensions: ["jpg", "png", "gif"]
   });
   </script>
-</html>
 </html>

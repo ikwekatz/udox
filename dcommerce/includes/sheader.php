@@ -54,6 +54,88 @@ define('gridv', '/udox/dcommerce/pages/gridlist.php');
 <link href="<?php echo BASE_URL.'/css/ui.css';?>" rel="stylesheet" type="text/css"/>
 <link href="<?php echo BASE_URL.'/css/responsive.css';?>" rel="stylesheet" media="only screen and (max-width: 1200px)" />
 
+<link href="<?php echo BASE_URL.'/images/favicon.ico';?>" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" href="<?php echo BASE_URL.'/css/main.css';?>">
+<!-- jQuery -->
+<script src="<?php echo BASE_URL.'/js/jquery-2.0.0.min.js';?>" type="text/javascript"></script>
+
+<!-- Bootstrap4 files-->
+<script src="<?php echo BASE_URL.'/js/bootstrap.bundle.min.js'; ?>" type="text/javascript"></script>
+<link href="<?php echo BASE_URL.'/css/bootstrap.css';?>" rel="stylesheet" type="text/css"/>
+
+<!-- Font awesome 5 -->
+<link href="<?php echo BASE_URL.'/fonts/fontawesome/css/all.min.css';?>" type="text/css" rel="stylesheet">
+
+<!-- plugin: slickslider -->
+<link href="<?php echo BASE_URL.'/plugins/slickslider/slick.css';?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo BASE_URL.'/plugins/slickslider/slick-theme.css';?>" rel="stylesheet" type="text/css" />
+<script src="<?php echo BASE_URL.'/plugins/slickslider/slick.min.js';?>"></script>
+
+<!-- plugin: owl carousel  -->
+<link href="<?php echo BASE_URL.'/plugins/owlcarousel/assets/owl.carousel.css';?>" rel="stylesheet">
+<link href="<?php echo BASE_URL.'/plugins/owlcarousel/assets/owl.theme.default.css';?>" rel="stylesheet">
+<script src="<?php echo BASE_URL.'/plugins/owlcarousel/owl.carousel.min.js';?>"></script>
+<!-- custom style -->
+<link href="<?php echo BASE_URL.'/css/ui.css';?>" rel="stylesheet" type="text/css"/>
+<link href="<?php echo BASE_URL.'/css/responsive.css';?>" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+<!-- custom javascript -->
+<script src="<?php echo BASE_URL.'/js/script.js';?>" type="text/javascript"></script>
+
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/bootstrap/css/bootstrap.min.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/fonts/font-awesome.min.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/fonts/simple-line-icons.min.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/css/Button-modal-ecommerce-1.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/css/Button-modal-ecommerce.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/css/Edit-Form.css'?>">
+  <link rel="stylesheet" href="<?php echo BASE_URL.'/assets/css/styles.css'?>">
+  <style>
+    .kv-avatar .krajee-default.file-preview-frame,.kv-avatar .krajee-default.file-preview-frame:hover {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        text-align: center;
+    }
+    .kv-avatar {
+        display: inline-block;
+    }
+    .kv-avatar .file-input {
+        display: table-cell;
+        width: 213px;
+    }
+    .kv-reqd {
+        color: red;
+        font-family: monospace;
+        font-weight: normal;
+    }
+    </style>
+     
+</head>
+<!-- some CSS styling changes and overrides -->
+<style>
+  .kv-avatar .krajee-default.file-preview-frame,.kv-avatar .krajee-default.file-preview-frame:hover {
+      margin: 0;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      text-align: center;
+  }
+  .kv-avatar {
+      display: inline-block;
+  }
+  .kv-avatar .file-input {
+      display: table-cell;
+      width: 213px;
+  }
+  .kv-reqd {
+      color: red;
+      font-family: monospace;
+      font-weight: normal;
+  }
+  </style>
+   
+   
 <!-- custom javascript -->
 <script src="<?php echo BASE_URL.'/js/script.js';?>" type="text/javascript"></script>
 
