@@ -67,95 +67,6 @@
 <!-- ========================= FOOTER ========================= -->
 <?php include('../../includes/footer.php')?>;
 <!-- ========================= FOOTER END // ========================= -->
-  <div class="card shadow mb-4">
-    <div class="card-header py-3">
-        <div class="row col-sm-12">
-            <h4 class="m-2 col-sm-4 font-weight-bold text-primary"><a href="#" data-toggle="modal"
-                    data-target="#aModal"> Add New product to store <span class="fa fa-plus"></span></a></h4>
-        </div>
-
-    </div>
-
-
-    <!-- Customer Modal-->
-<div class="modal fade bd-example-modal-lg" id="aModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h5 class="modal-title fa fa-plus" id="exampleModalLabel">Add New Product</h5>
-
-              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">×</span>
-              </button>
-
-          </div>
-          <div class="modal-body">
-            <div id="kv-avatar-errors-2" class="center-block" style="width:800px;display:none"></div>
-            <!-- markup -->
-  <!-- note: your server code `/site/avatar_upload/1` will receive `$_FILES['avatar-1']` on form submission -->
-  <!-- the avatar markup -->
-  <form class="form form-vertical" action="" method="post" enctype="multipart/form-data">
- <div class="row">
-        <div class="col-sm-4 text-center">
-          <img id="companyLogo" alt="Select Product image" src="1.jpg" data-type="editable" height="150px" width="150px" />
-          <hr>
-          <h5>Product image</h5>
-        </div>
-        <div class="col-sm-8">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="email">Product Name<span class="kv-reqd">*</span></label>
-                        <input type="text" class="form-control" placeholder="Enter Product Name" name="pname" required>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="pwd">Product Price<span class="kv-reqd">*</span></label>
-                        <input type="text" class="form-control" placeholder="Product price in TSH" name="pwd" required>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                  <label for="lname">Product Category</label>
-                      <select class='form-control' name='gender' required>
-                        <option value="" disabled selected hidden>---Category---</option>
-                        <option value="Men Fashions">Men Fashions</option>
-                        <option value="Women Fashions">Women Fashions</option>
-                        <option value="Child Fashions">Child Fashions</option>
-                        <option value="Official Fashions">Official Fashions</option>
-                    </select>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label for="lname">Ammount of Product Available</label>
-                        <input type="text" class="form-control" placeholder="Enter number of product available in your store" id="country_code" name="country_code"
-                        pattern="[0-9]{4}" title="Number of Product Available eg 10" required>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-        <div class="form-group">
-        <label for="lname">Product Description</label>
-        <textarea id="w3review" class="form-control" name="w3review" placeholder="Enter prouct descrpition here" rows="5" cols="75">
-        </textarea>
-        </div>
-    </div>
-            <hr>
-            <div class="form-group col-sm-8">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="submit" name="save" class="btn btn-primary">Save User</button>
-            </div>
-        </div>
-    </div>
-  </form>
-
-
-          </div>
-      </div>
-  </div>
-</div>
   <script src="<?php echo BASE_URL.'/assets/js/jquery.min.js'?>"></script>
   <script src="<?php echo BASE_URL.'/assets/bootstrap/js/bootstrap.min.js'?>"></script>
   <script src="<?php echo BASE_URL.'/assets/js/Button-modal-ecommerce.js'?>"></script>
@@ -214,28 +125,6 @@ function ($, window, document) {
     // The rest of your code goes here!
 }));
 
-
-
-  var btnCust = '<button type="button" class="btn btn-secondary" title="Add picture tags" ' + 
-      'onclick="alert(\'Call your custom code here.\')">' +
-      '<i class="bi-tag"></i>' +
-      '</button>'; 
-  $("#avatar-1").fileinput({
-      overwriteInitial: true,
-      maxFileSize: 1500,
-      showClose: false,
-      showCaption: false,
-      browseLabel: '',
-      removeLabel: '',
-      browseIcon: '<i class="bi-folder2-open"></i>',
-      removeIcon: '<i class="bi-x-lg"></i>',
-      removeTitle: 'Cancel or reset changes',
-      elErrorContainer: '#kv-avatar-errors-1',
-      msgErrorClass: 'alert alert-block alert-danger',
-      defaultPreviewContent: '<img src="/samples/default-avatar-male.png" alt="Your Avatar">',
-      layoutTemplates: {main2: '{preview} ' +  btnCust + ' {remove} {browse}'},
-      allowedFileExtensions: ["jpg", "png", "gif"]
-  });
   </script>
 </html>
 </html>

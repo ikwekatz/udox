@@ -33,7 +33,8 @@ define('gridv', '/udox/dcommerce/pages/gridlist.php');
 <link rel="stylesheet" href="<?php echo BASE_URL.'/css/main.css';?>">
 <!-- jQuery -->
 <script src="<?php echo BASE_URL.'/js/jquery-2.0.0.min.js';?>" type="text/javascript"></script>
-
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link rel="stylesheet" href="URL	https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/1.0.3/sweetalert2.min.css.map">
 <!-- Bootstrap4 files-->
 <script src="<?php echo BASE_URL.'/js/bootstrap.bundle.min.js'; ?>" type="text/javascript"></script>
 <link href="<?php echo BASE_URL.'/css/bootstrap.css';?>" rel="stylesheet" type="text/css"/>

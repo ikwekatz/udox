@@ -2,11 +2,7 @@
 include('../includes/header.php');
 ?>
 <!-- ========================= SECTION PAGETOP ========================= -->
-<section class="section-pagetop bg-gray">
-<div class="container">
-	<h2 class="title-page">My account</h2>
-</div> <!-- container //  -->
-</section>
+
 <!-- ========================= SECTION PAGETOP END// ========================= -->
 	
 <!-- ========================= SECTION CONTENT ========================= -->
@@ -32,7 +28,7 @@ include('../includes/header.php');
 				
 				<figure class="icontext">
 						<div class="icon">
-							<img class="rounded-circle img-sm border" src="images/avatars/avatar3.jpg">
+							<img class="rounded-circle img-sm border" src="<?php echo BASE_URL.'/images/avatars/avatar3.jpg'?>">
 						</div>
 						<div class="text">
 							<strong> Mr. Jackson Someone </strong> <br> 
@@ -88,7 +84,7 @@ include('../includes/header.php');
 				<div class="row">
 				<div class="col-md-6">
 					<figure class="itemside  mb-3">
-						<div class="aside"><img src="images/items/1.jpg" class="border img-sm"></div>
+						<div class="aside"><img src="<?php echo items.'1.jpg'?>" class="border img-sm"></div>
 						<figcaption class="info">
 							<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
 							<p>Great book name goes here </p>
@@ -98,7 +94,7 @@ include('../includes/header.php');
 				</div> <!-- col.// -->
 				<div class="col-md-6">
 					<figure class="itemside  mb-3">
-						<div class="aside"><img src="images/items/2.jpg" class="border img-sm"></div>
+						<div class="aside"><img src="<?php echo items.'2.jpg'?>" class="border img-sm"></div>
 						<figcaption class="info">
 							<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
 							<p>How to be rich</p>
@@ -108,7 +104,7 @@ include('../includes/header.php');
 				</div> <!-- col.// -->
 				<div class="col-md-6">
 					<figure class="itemside mb-3">
-						<div class="aside"><img src="images/items/3.jpg" class="border img-sm"></div>
+						<div class="aside"><img src="<?php echo items.'3.jpg'?>" class="border img-sm"></div>
 						<figcaption class="info">
 							<time class="text-muted"><i class="fa fa-calendar-alt"></i> 12.09.2019</time>
 							<p>Harry Potter book </p>

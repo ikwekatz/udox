@@ -1,5 +1,5 @@
 <?php 
-session_start();
+@session_start();
 //include('../includes/header.php');
 $_SESSION['login']="loged";
 $_SESSION['username']="mbwehe";
